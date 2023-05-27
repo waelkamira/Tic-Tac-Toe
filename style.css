@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+.ground {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 775px;
+    margin-right: 800px;
+    grid-template-areas: 
+    '. . .'
+    '. . .'
+    '. . .';
+    
+    
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    font-size: 70px;
+    background-color: #9a9696;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.won {
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+.play--again {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+}
